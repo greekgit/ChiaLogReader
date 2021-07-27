@@ -88,6 +88,8 @@ def process_chia_log(filename, search_str):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
+    print("\n Chia Log File Analyzer (Version 0.1)\n ====================================\n")
+
     logpaths = glob.glob(pathname='c:\\Users\\paul_\\.chia\\mainnet\\log\\debug.log*', recursive=False)
 
     search_string = '1 plots were eligible'
