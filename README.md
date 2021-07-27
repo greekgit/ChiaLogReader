@@ -1,6 +1,8 @@
 # ChiaLogReader
 Very simple Python 3 script to read and analyse the current chia debug log to calculate average time between proof attempts, longest lookup time, number of proof attempts and number of proofs found.
 
+Developed for Chia 1.2.2 (not tried it with 1.2.3 yet) 
+
 
  ## Introduction
 
@@ -15,7 +17,7 @@ Very simple Python 3 script to read and analyse the current chia debug log to ca
  ## Parameters
   
  
-  No parametrers required. Just hardcode your debug.log path into the 'logpath' variable and off you go!
+  No parameters required. Just hardcode your debug.log path into the 'logpath' variable and off you go!
   
   ## Notes
   
@@ -23,5 +25,5 @@ Very simple Python 3 script to read and analyse the current chia debug log to ca
 
 ## Possible enhancements
  
- I may extend it to also analyse older logs in the same folder. Not sure if that would be of any value though as current performance is what matters to the farm. 
+ Recently extended to include older logs. 
  
