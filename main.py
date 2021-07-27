@@ -22,7 +22,7 @@ def process_chia_log(filename, search_str):
 
     try:
         # trying to open a file in read mode
-        file = open(filename, "r")
+        file = open(filename, "r" , encoding='utf-8' )
 
     except FileNotFoundError:
         print("File does not exist")
@@ -90,8 +90,8 @@ if __name__ == '__main__':
 
     print("\n Chia Log File Analyzer (Version 0.1)\n ====================================\n")
 
-    logpaths = glob.glob(pathname='c:\\Users\\paul_\\.chia\\mainnet\\log\\debug.log*', recursive=False)
-
+    #logpaths = glob.glob(pathname='c:\\Users\\paul_\\.chia\\mainnet\\log\\debug.log*', recursive=False)
+    logpaths = glob.glob(pathname='y:\\debug.log*', recursive=False)
     search_string = '1 plots were eligible'
     h = 0
     for logpath in logpaths:
