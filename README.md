@@ -17,7 +17,7 @@ Developed for Chia 1.2.2 (not tried it with 1.2.3 yet)
  ## Parameters
   
  
-  No parameters required. Just hardcode your debug.log path into the 'logpath' variable and off you go!
+  No parameters required. Just hardcode your debug.log path into the 'logpaths' variable and off you go!
   
   ## Notes
   
