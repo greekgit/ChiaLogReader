@@ -13,6 +13,7 @@ Developed for Chia 1.2.2 (not tried it with 1.2.3 yet)
  ## Technologies
   
   The script was written in Pycharm for a Windows 10 system but I believe it should work for any chia system.
+  UPDATE: works fine on my Pi4 farmer running chia 1.2.2
   
  ## Parameters
   
